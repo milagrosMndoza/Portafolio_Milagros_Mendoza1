@@ -370,33 +370,27 @@ body {
   color: white;
   height: 100%;
   width: 100%; }
-
-h1 {
-  font-size: 80px;
-  font-family: Oswald;
-  letter-spacing: 3px;
-  /* line-height: 80px; */
-  font-weight: 500;
-  word-wrap: break-word; }
-
-h2 {
-  font-size: 32px;
-  line-height: 36px; }
-
-h3 {
-  font-size: 26px;
-  line-height: 29px; }
-
-h4 {
-  font-size: 20px;
-  line-height: 25px; }
-
-h5 {
-  font-size: 16px;
-  line-height: 21px; }
-
-h6 {
-  font-size: 15px; }
+  body h1 {
+    font-size: 80px;
+    font-family: Oswald;
+    letter-spacing: 3px;
+    /* line-height: 80px; */
+    font-weight: 500;
+    word-wrap: break-word; }
+  body h2 {
+    font-size: 32px;
+    line-height: 30px; }
+  body h3 {
+    font-size: 26px;
+    line-height: 29px; }
+  body h4 {
+    font-size: 20px;
+    line-height: 25px; }
+  body h5 {
+    font-size: 16px;
+    line-height: 21px; }
+  body h6 {
+    font-size: 15px; }
 
 .left {
   float: left; }
@@ -407,11 +401,10 @@ h6 {
 /* FOOTER DIV */
 footer {
   padding: 3em 0;
-  background: #000; }
-
-.soc-media-ul a {
-  text-align: center;
-  text-decoration: none; }
+  background: " #000"; }
+  footer .soc-media-ul a {
+    text-align: center;
+    text-decoration: none; }
 
 ul {
   padding: 0;
