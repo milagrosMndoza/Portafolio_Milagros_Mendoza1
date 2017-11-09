@@ -1,0 +1,31 @@
+/* CONTACT DIV */
+#contact{
+    background:#fff;
+  }
+  .sec-contact h3{
+    text-align:center;
+    color:#000;
+    padding-top:50px;
+  }
+  .sec-contact .btn {
+    text-transform: uppercase;
+    padding: .5rem 1.75rem;
+    background: #000;
+    font-size: .95rem;
+    color: #fff;
+  }
+  .sec-contact .form-control:focus {
+    border-color:#FF5733;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(173, 0, 0, .6);
+  }
+  .sec-contact .btn :hover{
+      background: #FF5733;
+      border-color: darken(#FF5733, 10%);
+    }
+  
+  
+  form {
+    @media screen and (max-width: 768px) and (min-width: 485px) {
+      max-width: 70%;
+    }
+  }
