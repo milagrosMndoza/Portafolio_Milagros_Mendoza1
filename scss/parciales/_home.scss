@@ -13,14 +13,9 @@
 .collapse {
 	color: #151515;
 }
-
-
 a {
   color: rgb(248, 62, 87) !important;
-  
 }
-
-
 
 a, a:hover, a:focus, a:active,
 .btn,
@@ -106,3 +101,55 @@ menu {
 .fa-angle-double-down {
   vertical-align: 8%;  
 }
+/* SECTION 1 WRAPPER */
+#wrapper1 {
+	font-family: Roboto Slab;
+	padding: 0;
+	margin: 0;
+	color: white;
+	position: center;
+	background: url('img/header_mily.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+	height: 100vh;
+	
+	
+}
+/* COOL NAME EFFECT */
+a:hover,a:focus{text-decoration:none;}
+.svg-wrapper {
+position: relative;
+top: 35%;
+transform: translateY(-60%);
+margin: 0 auto;
+width: 500px;
+max-height:100px;
+cursor:default;
+}
+.shape {
+stroke-dasharray: 200 600;
+stroke-dashoffset: -441;
+stroke-width: 10px;
+fill: transparent;
+/* modify this with the color you want */
+stroke: rgb(248, 62, 87);  
+border-bottom: 5px solid black;
+transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+font-family: serif;
+font-size: 40px;
+line-height: 32px;
+letter-spacing: 5px;
+color: #fff;
+top: -80px;
+position: relative;
+text-align:center;
+}
+.svg-wrapper:hover .shape {
+stroke-width: 2px;
+stroke-dashoffset: 0;
+stroke-dasharray: 800;
+}
+/* END COOL NAME EFFECT */

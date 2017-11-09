@@ -85,49 +85,6 @@ menu {
 .fa-angle-double-down {
   vertical-align: 8%; }
 
-* {
-  font-family: 'El Messiri', Helvetica, Arial, sans-serif; }
-
-body {
-  font-family: Roboto Slab;
-  background: #f83e57;
-  color: white;
-  height: 100%;
-  width: 100%; }
-
-h1 {
-  font-size: 80px;
-  font-family: Oswald;
-  letter-spacing: 3px;
-  /* line-height: 80px; */
-  font-weight: 500;
-  word-wrap: break-word; }
-
-h2 {
-  font-size: 32px;
-  line-height: 36px; }
-
-h3 {
-  font-size: 26px;
-  line-height: 29px; }
-
-h4 {
-  font-size: 20px;
-  line-height: 25px; }
-
-h5 {
-  font-size: 16px;
-  line-height: 21px; }
-
-h6 {
-  font-size: 15px; }
-
-.left {
-  float: left; }
-
-.right {
-  float: right; }
-
 /* SECTION 1 WRAPPER */
 #wrapper1 {
   font-family: Roboto Slab;
@@ -188,10 +145,9 @@ a:hover, a:focus {
   color: white;
   margin-left: 75px;
   margin-right: 75px; }
-
-#aboutme a:hover {
-  color: #a8a8a8;
-  font-weight: 600; }
+  #aboutme a:hover {
+    color: #a8a8a8;
+    font-weight: 600; }
 
 /* HEADSHOT */
 .img-round {
@@ -228,24 +184,21 @@ a:hover, a:focus {
   position: relative;
   transition: all 0.2s;
   top: 0; }
-
-.shadow p {
-  text-align: center; }
+  .shadow p {
+    text-align: center; }
+  .shadow h3:hover {
+    color: #939393;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+  .shadow p:hover {
+    color: #939393;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
 
 a {
   color: #55606A; }
-
-.shadow h3:hover {
-  color: #939393;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out; }
-
-.shadow p:hover {
-  color: #939393;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out; }
 
 .cust-caption {
   display: none;
@@ -260,6 +213,9 @@ a {
   height: 60%;
   margin: 5px;
   overflow-y: auto; }
+  .cust-caption a {
+    color: white;
+    text-shadow: 1px 1px 2px black; }
 
 .stm-font {
   text-align: center; }
@@ -268,21 +224,16 @@ a {
   top: -5px;
   box-shadow: 15px 15px 15px #777; }
 
-.cust-caption a {
-  color: white;
-  text-shadow: 1px 1px 2px black; }
-
 /* SKILLS */
-.container-skillbar h4 {
-  color: #55606A;
-  padding-bottom: 30px; }
-
 .container-skillbar {
   width: 100%;
   padding: 20px 100px 60px 100px;
   height: auto;
   overflow: none;
   background: #f5f5f5; }
+  .container-skillbar h4 {
+    color: #55606A;
+    padding-bottom: 30px; }
 
 .skillbar {
   position: relative;
@@ -320,19 +271,18 @@ a {
   -moz-border-radius-bottomleft: 3px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px; }
-
-.skillbar-title span {
-  display: block;
-  background: rgba(0, 0, 0, 0.15);
-  padding: 0 20px;
-  height: 30px;
-  line-height: 30px;
-  -webkit-border-top-left-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -moz-border-radius-topleft: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px; }
+  .skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; }
 
 .skillbar-bar {
   height: 30px;
@@ -411,14 +361,50 @@ a {
   form {
     max-width: 70%; } }
 
+* {
+  font-family: 'El Messiri', Helvetica, Arial, sans-serif; }
+
+body {
+  font-family: Roboto Slab;
+  background: #f83e57;
+  color: white;
+  height: 100%;
+  width: 100%; }
+  body h1 {
+    font-size: 80px;
+    font-family: Oswald;
+    letter-spacing: 3px;
+    /* line-height: 80px; */
+    font-weight: 500;
+    word-wrap: break-word; }
+  body h2 {
+    font-size: 32px;
+    line-height: 30px; }
+  body h3 {
+    font-size: 26px;
+    line-height: 29px; }
+  body h4 {
+    font-size: 20px;
+    line-height: 25px; }
+  body h5 {
+    font-size: 16px;
+    line-height: 21px; }
+  body h6 {
+    font-size: 15px; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
 /* FOOTER DIV */
 footer {
   padding: 3em 0;
-  background: #000; }
-
-.soc-media-ul a {
-  text-align: center;
-  text-decoration: none; }
+  background: " #000"; }
+  footer .soc-media-ul a {
+    text-align: center;
+    text-decoration: none; }
 
 ul {
   padding: 0;
