@@ -1,17 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
-body {
-  font-family: Roboto Slab;
-  background: #f83e57;
-  color: white;
-  height: 100%;
-  width: 100%; }
-
-/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
-/* ESTILOS GENERALES */
-* {
-  font-family: 'El Messiri', Helvetica, Arial, sans-serif; }
-
 .nav > li > a:focus,
 .nav > li > a:hover {
   text-decoration: none;
@@ -27,10 +15,7 @@ body {
 a {
   color: #f83e57 !important; }
 
-a,
-a:hover,
-a:focus,
-a:active,
+a, a:hover, a:focus, a:active,
 .btn,
 .btn:hover,
 .btn:focus,
@@ -53,9 +38,8 @@ a:active,
   background-color: #A89F68;
   color: #fff;
   padding: 5em 0; }
-
-.bg-color h2 small {
-  color: #fff; }
+  .bg-color h2 small {
+    color: #fff; }
 
 ul {
   list-style: none;
@@ -81,6 +65,14 @@ menu {
 /* HEADER DIV */
 #header {
   text-align: center; }
+  #header a {
+    font-size: 45px;
+    color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out; }
+  #header a:hover {
+    font-size: 50px; }
 
 #welcome {
   padding-top: 70px;
@@ -89,19 +81,52 @@ menu {
   left: 50%;
   transform: translate(-50%, -50%); }
 
-#header a {
-  font-size: 45px;
-  color: #fff;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out; }
-
-#header a:hover {
-  font-size: 50px; }
-
 /* SCROLL DOWN ARROW */
 .fa-angle-double-down {
   vertical-align: 8%; }
+
+* {
+  font-family: 'El Messiri', Helvetica, Arial, sans-serif; }
+
+body {
+  font-family: Roboto Slab;
+  background: #f83e57;
+  color: white;
+  height: 100%;
+  width: 100%; }
+
+h1 {
+  font-size: 80px;
+  font-family: Oswald;
+  letter-spacing: 3px;
+  /* line-height: 80px; */
+  font-weight: 500;
+  word-wrap: break-word; }
+
+h2 {
+  font-size: 32px;
+  line-height: 36px; }
+
+h3 {
+  font-size: 26px;
+  line-height: 29px; }
+
+h4 {
+  font-size: 20px;
+  line-height: 25px; }
+
+h5 {
+  font-size: 16px;
+  line-height: 21px; }
+
+h6 {
+  font-size: 15px; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
 
 /* SECTION 1 WRAPPER */
 #wrapper1 {
@@ -113,6 +138,7 @@ menu {
   background: url("img/header_mily.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center right;
   height: 100vh; }
 
 /* COOL NAME EFFECT */
@@ -327,7 +353,7 @@ a {
 
 /* SERVICES SECTION */
 .sec-services {
-  background: #14B97D;
+  background: #f83e57;
   padding-top: 70px;
   padding-bottom: 70px;
   color: #fff; }
@@ -418,39 +444,6 @@ ul {
 
 .soc-media-ul a:focus {
   color: #FF5733; }
-
-h1 {
-  font-size: 80px;
-  font-family: Oswald;
-  letter-spacing: 3px;
-  /* line-height: 80px; */
-  font-weight: 500;
-  word-wrap: break-word; }
-
-h2 {
-  font-size: 32px;
-  line-height: 36px; }
-
-h3 {
-  font-size: 26px;
-  line-height: 29px; }
-
-h4 {
-  font-size: 20px;
-  line-height: 25px; }
-
-h5 {
-  font-size: 16px;
-  line-height: 21px; }
-
-h6 {
-  font-size: 15px; }
-
-.left {
-  float: left; }
-
-.right {
-  float: right; }
 
 /* SCROLL DOWN BUTTON */
 .btn-circle {
