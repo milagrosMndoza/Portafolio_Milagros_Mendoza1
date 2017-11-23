@@ -108,13 +108,24 @@ menu {
 	margin: 0;
 	color: white;
 	position: center;
-	background: url('img/header_mily.jpg');
+	background: url('img/IMG_4092.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center right;
 	height: 100vh;
 	
 	
+}
+video {
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    width: auto;
+    z-index: -100;
 }
 /* COOL NAME EFFECT */
 a:hover,a:focus{text-decoration:none;}

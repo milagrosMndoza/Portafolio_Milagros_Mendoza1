@@ -16,7 +16,7 @@ body {
 /* ESTILOS GENERALES */
 
 * {
-	font-family: 'El Messiri', Helvetica, Arial, sans-serif;
+	font-family: Roboto Slab;
 }
 
 .nav>li>a:focus,
@@ -26,12 +26,12 @@ body {
 }
 
 .modal-title {
-	color: #151515;
+	color: transparent;
 	font-size: 14px;
 }
 
 .collapse {
-	color: #151515;
+	color: transparent;
 }
 
 
@@ -103,7 +103,7 @@ menu {
 }
 
 .navbar-inverse {
-	background-color: transparent;
+	background-color: transparent !important;
 	border: none;
 }
 /* HEADER DIV */
@@ -144,7 +144,7 @@ menu {
     margin: 0;
     color: white;
     position: center;
-    background: url('img/header_mily.jpg');
+    background: url('img/IMG_4092.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

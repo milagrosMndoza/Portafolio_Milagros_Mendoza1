@@ -42,22 +42,13 @@ body {
   }
   
   h5 {
-    font-size: 16px;
-    line-height: 21px;
+    @include tamañoletra(16px,21px);
   }
   
   h6 {
-    font-size: 15px;
+    @include tamañoletra(15px, 20px);
   }
 }
-
-
-
-
-
-
-
-
 
 .left {
   float: left;
